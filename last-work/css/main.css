@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none; }
+
+html {
+  height: 100%; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  min-height: 100%; }
+
+input:invalid {
+  border: none; }
+
+.pager {
+  background: #01020f; }
+  .pager h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 60px;
+    text-align: center; }
+  .pager h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center; }
+    .pager h2:after {
+      content: '';
+      max-width: 500px;
+      border-bottom: 3px solid #15a4fa;
+      display: block;
+      margin: 15px auto 0 auto; }
+  .pager .scrin-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 30px; }
+    .pager .scrin-box:hover img {
+      -webkit-transform: scale3d(1.1, 1.1, 1.1);
+              transform: scale3d(1.1, 1.1, 1.1); }
+    .pager .scrin-box img {
+      width: 100%;
+      height: auto;
+      -webkit-transition: -webkit-transform 0.15s ease 0s;
+      transition: -webkit-transform 0.15s ease 0s;
+      -o-transition: transform 0.15s ease 0s;
+      transition: transform 0.15s ease 0s;
+      transition: transform 0.15s ease 0s, -webkit-transform 0.15s ease 0s;
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1); }
+    .pager .scrin-box .poster {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      -webkit-transition: background-color 0.15s ease 0s;
+      -o-transition: background-color 0.15s ease 0s;
+      transition: background-color 0.15s ease 0s;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding: 0 15px; }
+      .pager .scrin-box .poster:hover {
+        background-color: rgba(1, 2, 15, 0.7); }
+        .pager .scrin-box .poster:hover .poster-info {
+          opacity: 1; }
+      .pager .scrin-box .poster .poster-info {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        text-align: center;
+        -webkit-transition: opacity 0.3s ease 0s;
+        -o-transition: opacity 0.3s ease 0s;
+        transition: opacity 0.3s ease 0s;
+        opacity: 0; }
+        .pager .scrin-box .poster .poster-info h3 {
+          font-size: 32px;
+          color: #fff; }
+        .pager .scrin-box .poster .poster-info p {
+          font-size: 25px;
+          color: #fff; }
+        .pager .scrin-box .poster .poster-info a {
+          font-size: 20px;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          color: #fff;
+          width: 180px;
+          height: 60px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          margin-top: 20px;
+          font-weight: 700;
+          background: #15a4fa;
+          text-decoration: none;
+          -webkit-border-radius: 6px;
+                  border-radius: 6px;
+          -webkit-transition: all 0.15s ease 0s;
+          -o-transition: all 0.15s ease 0s;
+          transition: all 0.15s ease 0s; }
+          .pager .scrin-box .poster .poster-info a:hover {
+            background: rgba(21, 164, 250, 0.9);
+            -webkit-box-shadow: 0px 0px 43px -4px #15a4fa;
+                    box-shadow: 0px 0px 43px -4px #15a4fa; }
+
+@media (max-width: 575px) {
+  .pager h1 {
+    font-size: 46px; }
+  .pager h2 {
+    font-size: 27px; }
+  .pager .scrin-box {
+    margin-bottom: 15px; } }
