@@ -93,13 +93,13 @@ $(document).ready(function() {
         $(this).lightGallery({
             dynamic: true,
             dynamicEl: [{
-                "src": '../img/g1-lg.jpg',
+                "src": 'img/g1-lg.jpg',
                 'subHtml': '<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>'
             }, {
-                'src': '../img/g1-lg.jpg',
+                'src': 'img/g1-lg.jpg',
                 'subHtml': "<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>"
             }, {
-                'src': '../img/g1-lg.jpg',          
+                'src': 'img/g1-lg.jpg',          
                 'subHtml': "<h4>Coniston Calmness</h4><p>Beautiful morning</p>"
             }]
         })
@@ -108,13 +108,13 @@ $(document).ready(function() {
         $(this).lightGallery({
             dynamic: true,
             dynamicEl: [{
-                "src": '../img/g2-lg.jpg',
+                "src": 'img/g2-lg.jpg',
                 'subHtml': '<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>'
             }, {
-                'src': '../img/g2-lg.jpg',
+                'src': 'img/g2-lg.jpg',
                 'subHtml': "<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>"
             }, {
-                'src': '../img/g2-lg.jpg',          
+                'src': 'img/g2-lg.jpg',          
                 'subHtml': "<h4>Coniston Calmness</h4><p>Beautiful morning</p>"
             }]
         })
@@ -123,13 +123,13 @@ $(document).ready(function() {
         $(this).lightGallery({
             dynamic: true,
             dynamicEl: [{
-                "src": '../img/g3-lg.jpg',
+                "src": 'img/g3-lg.jpg',
                 'subHtml': '<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>'
             }, {
-                'src': '../img/g3-lg.jpg',
+                'src': 'img/g3-lg.jpg',
                 'subHtml': "<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>"
             }, {
-                'src': '../img/g3-lg.jpg',          
+                'src': 'img/g3-lg.jpg',          
                 'subHtml': "<h4>Coniston Calmness</h4><p>Beautiful morning</p>"
             }]
         })
@@ -138,13 +138,13 @@ $(document).ready(function() {
         $(this).lightGallery({
             dynamic: true,
             dynamicEl: [{
-                "src": '../img/g4-lg.jpg',
+                "src": 'img/g4-lg.jpg',
                 'subHtml': '<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>'
             }, {
-                'src': '../img/g4-lg.jpg',
+                'src': 'img/g4-lg.jpg',
                 'subHtml': "<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>"
             }, {
-                'src': '../img/g4-lg.jpg',          
+                'src': 'img/g4-lg.jpg',          
                 'subHtml': "<h4>Coniston Calmness</h4><p>Beautiful morning</p>"
             }]
         })
