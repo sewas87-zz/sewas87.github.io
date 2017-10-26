@@ -432,7 +432,7 @@ h1 {
 
 /* Slider */
 .slick-loading .slick-list {
-  background: #fff url("../../img/ajax-loader.gif") center center no-repeat; }
+  background: #fff url("../img/ajax-loader.gif") center center no-repeat; }
 
 /* Icons */
 @font-face {
@@ -3196,7 +3196,7 @@ em.mm-counter + a.mm-next + label.mm-toggle + a, em.mm-counter + a.mm-next + lab
         margin-left: 0;
         margin-top: 20px; }
   #page #baner #slider img {
-    height: 400px; } }
+    height: 360px; } }
 
 @media (max-width: 767px) {
   #head {
@@ -3204,8 +3204,9 @@ em.mm-counter + a.mm-next + label.mm-toggle + a, em.mm-counter + a.mm-next + lab
   .header {
     display: block; }
   #baner #slider img {
-    max-height: 600px; }
+    max-height: 480px; }
   #baner h1 {
+  	margin-bottom: 17px;
     font-size: 36px;
     line-height: normal; } }
 
