@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<title>Document</title>
+	<link rel="apple-touch-icon" href="img/iphone_icon.png" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:400,700|Raleway:400,700,800" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="loaderArea">
+		<div class="loader"></div>
+	</div>
+	<header id="header">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="header-line">
+								<a href="#home" class="logo"><img src="img/logo.png" alt=""></a>
+								<div class="info">
+									<div class="call">
+										<p>Call Us now</p>
+										<a href="tel:18004567890">1800 456 7890</a>
+									</div>
+									<a href="#book" class="btn-book">Book Appointment</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<nav id="nav">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<a id="nav-toggle" href="#"><span></span></a>
+					<ul class="head-nav">
+						<li><a href="#1" class="home active">Home</a></li>
+						<li>
+							<a href="#1" class="serv">Services<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+							<!--Список меню другого рівння-->
+							<ul>
+								<li><a href="#3">List of chemical elements</a></li>
+								<li><a href="#3">List of chemical elements</a></li>
+								<li><a href="#3">List of chemical elements</a></li>
+								<li><a href="#3">List of chemical elements</a></li>
+								<li><a href="#3">List of chemical elements</a></li>
+							</ul>
+						</li>
+						<li><a href="#12" class="about">About Us<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+							<!--Список меню другого рівння-->
+							<ul>
+								<li><a href="#3">List of chemical elements</a></li>
+								<li><a href="#3">List of chemical elements</a></li>
+								<li><a href="#3">List of chemical elements</a></li>
+								<li><a href="#3">List of chemical elements</a></li>
+								<li><a href="#3">List of chemical elements</a></li>
+							</ul>
+						</li>
+						<li><a href="#12" class="pages">Pages<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+							<!--Список меню другого рівння-->
+							<ul >
+								<li><a href="#3">List of chemical elements</a></li>
+								<li><a href="#3">List of chemical elements</a></li>
+								<li><a href="#3">List of chemical elements</a></li>
+								<li><a href="#3">List of chemical elements</a></li>
+								<li><a href="#3">List of chemical elements</a></li>
+							</ul>
+						</li>
+						<li><a href="#2" class="tesmo">Tesmonials</a></li>
+						<li><a href="#" class="blog">Blog<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+							<!--Список меню другого рівння-->
+							<ul>
+								<li><a href="#3">List of chemical elements</a></li>
+								<li><a href="#3">List of chemical elements</a></li>
+								<li><a href="#3">List of chemical elements</a></li>
+								<li><a href="#3">List of chemical elements</a></li>
+								<li><a href="#3">List of chemical elements</a></li>
+							</ul>
+						</li>
+						<li><a href="#5" class="contact">Contact Us</a></li>
+					</ul><!--Кінець списка меню першого рівня рівння-->
+				</div>
+			</div>
+		</div>
+	</nav>
+	<section id="baner">
+		<div id="slider">
+			<div><img src="img/baner1.jpg" alt=""></div>
+			<div><img src="img/baner2.jpg" alt=""></div>
+			<div><img src="img/baner1.jpg" alt=""></div>
+		</div>
+		<div class="slogan">
+			<h1>Solving problems<br>That Are Beyound your Control</h1>
+			<div class="btn-baner">
+				<a href="#1" class="serv">View all Services</a>
+				<a href="#2" class="appoin">Get Appointment</a>
+			</div>
+		</div>
+	</section>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+	<script>
+	  $(window).on('load', function () {
+	    var $preloader = $('.loaderArea'),
+	      $loader = $preloader.find('.loader');
+	    $loader.fadeOut();
+	    $preloader.delay(350).fadeOut('slow');
+	  });
+	</script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script src="https://use.fontawesome.com/4e5afd4f39.js"></script>
+	<script src="js/common.js">
+	</script>
+</body>
+</html>
