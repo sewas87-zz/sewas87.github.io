@@ -9,9 +9,66 @@
 	<link rel="apple-touch-icon" href="img/iphone_icon.png"/>
 	<link rel="stylesheet" type="text/css" href="css/lightgallery.css">
 	<link rel="stylesheet" href="css/bootstrap-grid.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
+	<div class="loaderArea">
+		<div class="cssload-loader">
+			<div class="cssload-inner cssload-one"></div>
+			<div class="cssload-inner cssload-two"></div>
+			<div class="cssload-inner cssload-three"></div>
+		</div>
+	</div>
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="header">
+						<a href="#home" class="logo"><img src="img/logo.png" alt=""></a>
+						<div class="title">
+							<h3>Електроніка та інформаційні технології</h3>
+							<p>IX Українсько-Польська науково-практична конференція</p>
+						</div>
+						<div class="btn-nav">
+							<a id="nav-toggle" href="#"><span></span></a>
+							<a href="#" class="header-lev">
+								<img src="img/head-lev.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<nav id="nav">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="nav">
+						<div class="lang">
+							<a href="#" class="ua activ-leng">Українською</a>
+							<a href="#" class="pl">Polska</a>
+							<a href="#" class="en">English</a>
+						</div>
+						<ul class="main-nav">
+							<li><a href="#organiz">Організатори</a></li>
+							<li><a href="#way-work">Напрямки роботи</a></li>
+							<li><a href="#qvestions">Організаційні питання</a></li>
+							<li><a href="#">Реєстраційна форма</a></li>
+							<li><a href="#data">Важливі дати</a></li>
+							<li><a href="#gallery">Фотогалерея</a></li>
+							<li><a href="#footer">Контакти</a></li>
+						</ul>
+						<div class="download">
+							<a href="#" class="docx">Вимоги до оформлення матеріалів</a>
+							<a href="#" class="pdf">Звіт ЕлІТ 2017</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
 	<section id="baner">
 		<div class="container">
 			<div class="row">
@@ -21,12 +78,12 @@
 						<h1><mark>Електроніка</mark><br> <mark>та інформаційні</mark><br> <mark>технології</mark></h1>
 						<p class="data">28–31 серпня 2017 р.<br> Львів, Чинадієво</p>
 					</div>
-					<a href="#" id="scroll-down"><img src="img/scrol_down.png" alt=""></a>
+					<a href="#organiz" id="scroll-down"><img src="img/scrol_down.png" alt=""></a>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section id="organiz">
+	<section id="organiz" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -37,7 +94,7 @@
 						<div class="sponsor-logo">
 							<img src="img/s1.png" alt="">
 						</div>
-						<a href="#">Львівський національний університет імені Івана Франка (Україна)</a>
+						<a href="#" class="222">Львівський національний університет імені Івана Франка (Україна)</a>
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-6 col-xl-3">
@@ -119,7 +176,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="way-work">
+	<section id="way-work" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -159,7 +216,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="qvestions">
+	<section id="qvestions" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -182,7 +239,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="data">
+	<section id="data" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -271,7 +328,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="gallery">
+	<section id="gallery" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -330,13 +387,13 @@
 			</div>
 		</div>
 	</section>
-	<footer id="footer">
+	<footer id="footer" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
 					<div class="footer">
 						<div class="footer-logo">
-							<img src="img/logo.png" alt="">
+							<a href="#home"><img src="img/logo.png" alt=""></a>
 							<h4>Українсько-польська<br> науково-практична конференція</h4>
 						</div>
 						<div class="contact">
@@ -353,7 +410,7 @@
 							</div>
 						</div>
 						<div class="lev">
-							<img src="img/footer-lev.png" alt="">
+							<a href="#lev"><img src="img/footer-lev.png" alt=""></a>
 						</div>
 					</div>
 				</div>
@@ -370,13 +427,22 @@
 			</div>		
 		</section>
 	</footer>
+	<a href="#TOP" id="scroll"></a>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+	<script>
+	  $(window).on('load', function () {
+	    var $preloader = $('.loaderArea'),
+	      $loader = $preloader.find('.cssload-loader');
+	    $loader.fadeOut();
+	    $preloader.delay(350).fadeOut('slow');
+	  });
+	</script>
+	<script type="text/javascript" src="js/libs/wow.min.js"></script>
 	<script src="js/libs/lightgallery.js" type="text/javascript"></script>
 	<script type="text/javascript" src="js/libs/lg-zoom.min.js"></script>
 	<script type="text/javascript" src="js/libs/lg-pager.min.js"></script>
 	<script type="text/javascript" src="js/libs/lg-fullscreen.min.js"></script>
 	<script type="text/javascript" src="js/libs/lg-thumbnail.min.js"></script>
-	<script type="text/javascript" src="js/libs/wow.min.js"></script>
 	<script src="js/common.js">
 	</script>
 </body>
