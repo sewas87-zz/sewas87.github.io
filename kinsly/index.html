@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<title>Document</title>
+	<link rel="apple-touch-icon" href="img/iphone_icon.png"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="loaderArea">
+		<div class="cssload-loader">
+			<div class="cssload-inner cssload-one"></div>
+			<div class="cssload-inner cssload-two"></div>
+			<div class="cssload-inner cssload-three"></div>
+		</div>
+	</div>
+	<section class="baner">
+		<div class="parallax">
+			<div class="parallax-container">
+				<div id="scene" class="scene">
+					<div class="l1" data-depth="0.2"><img src="img/l1.png" alt=""></div>
+					<div class="l2" data-depth="0.6"><img src="img/l2.png" alt=""></div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 no-gutters">
+					<div class="header">
+						<a href="#home" class="logo"><img src="img/logo.png" alt=""></a>
+						<div class="call-box">
+							<a href="tel:380985465533" class="number">+38 (098) 546-55-33</a>
+							<a href="#1" class="call-back">Заказать звонок</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="title">
+						<div class="title-box">
+							<h1>НУЖНО РАЗРАБОТАТЬ ЛОГОТИП,ФИРМЕННЫЙ СТИЛЬ ИЛИ БРЕНД-БУК?</h1>
+							<p>Скачайте PDF-презентацию с ценами на услуги,<br> сроками и нашим портфолио прямо сейчас!</p>
+							<div class="btn-box">
+								<a href="#DOWNLOAD" class="btn-download">Скачать PDF презентацию</a>
+							</div>
+						</div>
+						<a href="#portfolio" id="view">Смотреть портфолио</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+	<script>
+	  $(window).on('load', function () {
+	    var $preloader = $('.loaderArea'),
+	      $loader = $preloader.find('.cssload-loader');
+	    $loader.fadeOut();
+	    $preloader.delay(350).fadeOut('slow');
+	  });
+	</script>
+	<script src="js/parallax.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
