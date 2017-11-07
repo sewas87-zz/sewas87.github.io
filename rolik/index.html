@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<title>Document</title>
+	<link rel="apple-touch-icon" href="img/iphone_icon.png"/>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<!--loader-->
+	<div class="loaderArea">
+		<img src="img/r.png" class="loader-logo" alt="">
+		<div class="loader"></div>
+	</div>
+	<!--Nav-->
+	<nav id="nav">
+		<a href="#home" class="logo">&nbsp;</a>
+		<a href="#" class="btn"><span></span></a>
+		<ul id="menu">
+			<li data-menuanchor="Page1"><a href="#Page1">Our work</a></li>
+			<li data-menuanchor="Page2"><a href="#Page2">Who we are</a></li>
+			<li data-menuanchor="Page3"><a href="#Page3">Blog</a></li>
+			<li data-menuanchor="Page4"><a href="#Page4">Contact Us</a></li>
+		</ul>
+	</nav>
+	<!--all_page-->
+	<div id="fullpage">
+		<!--Section_0-->
+		<div class="section" id="section0">
+			<div class="baner0">
+				<div class="slogan-b0">
+					<h1>TURNING STORIES<br> INTO CODE</h1>
+					<p>We build products you love with a team you’ll enjoy</p>
+				</div>
+				<div class="social">
+					<a href="#social" class="icon-box1">
+						<span class="icon1">&nbsp;</span>
+					</a>
+					<a href="#social" class="icon-box2">
+						<span class="icon2">&nbsp;</span>
+					</a>
+					<a href="#social" class="icon-box3">
+						<span class="icon3">&nbsp;</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--Section_1-->
+		<div class="section" id="section1">
+			<div class="baner1">
+				<div class="row">
+					<div class="col">
+						<div class="box"> 
+							<span class="ico1">&nbsp;</span>
+							<div class="text-box">
+								<h3 class="orang">Design</h3>
+								<p>Design and piloting e-marketing strategies to maximize your profits and your return on investment</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="box"> 
+							<span class="ico2">&nbsp;</span>
+							<div class="text-box">
+								<h3 class="pink">DEVELOPMENT</h3>
+								<p>Social prescence, loyalty, acquisition of highly qualified traffic and audience development</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="box"> 
+							<span class="ico3">&nbsp;</span>
+							<div class="text-box">
+								<h3 class="blue">STRATEGY</h3>
+								<p>Effective websites focused on the needs of the user, by implementing the latest web technologies</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="box"> 
+							<span class="ico4">&nbsp;</span>
+							<div class="text-box">
+								<h3 class="green">BIG DATA</h3>
+								<p>Effective websites focused on the needs of the user, by implementing the latest web technologies</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Section_2-->
+		<div class="section" id="section2">
+			<div class="baner2">
+				<div class="slogan-b2">
+					<h1>Who We Are</h1>
+					<p>At Rolique we are a team of award winning, Lviv based developers,<br> that are passionate about creating unique & inspiring web products.</p>
+					<a href="#" class="btn-b2">SEE OUR WORKS</a>
+				</div>
+			</div>
+		</div>
+		<!--Section_3-->
+		<div class="section" id="section3">
+			<div class="contact-box">
+				<div class="contact">
+					<div class="cont-text">
+						<h2>CONTACT US</h2>
+						<p>Feel free to ask something<br> or just to say hi!</p>
+					</div>
+				</div>
+				<div class="forma">
+					<form id='form' action="#" method="post">
+						<input type="text" id="name" name="name" value="" placeholder="Full Name" required/>
+						<input type="email" id="email" name="email" value="" placeholder="Email Address" required/>
+						<textarea name="comment" placeholder="Message" required></textarea>
+						<input class="btn-form" type="submit" value="Send Message">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--includ_script-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<!--Loader_script-->
+	<script>
+	  $(window).on('load', function () {
+	    var $preloader = $('.loaderArea'),
+	      $loader = $preloader.find('.loader');
+	    $loader.fadeOut();
+	    $preloader.delay(350).fadeOut('slow');
+	  });
+	</script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script src="js/libs/jquery.easings.min.js"></script>
+	<script type="text/javascript" src="js/libs/scrolloverflow.min.js"></script>
+	<script type="text/javascript" src="js/libs/jquery.fullPage.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
