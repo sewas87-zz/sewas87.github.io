@@ -1,7 +1,7 @@
 $(document).ready(function() { 
    $('#fullpage').fullpage({
         anchors:['Page1', 'Page2','Page3','Page4'],
-        menu: '#menu',
+        menu: '#nav',
         scrollOverflow:true,
         afterLoad: function(anchorLink, index){
             if(index == 1){
