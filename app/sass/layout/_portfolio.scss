@@ -28,7 +28,7 @@
 }
 .grid-sizerr,
 .grid-item3x2{
-  width: 40%
+  width: 40%;
 }
 
 .grid-item,.grid-item3x2 {
@@ -48,15 +48,32 @@
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767px) { 
-	
-
+	.grid-sizer,
+	.grid-item {
+	  width: 50% !important;
+	}
+	.grid-sizerr,
+	.grid-item3x2{
+	  width: 100% !important;
+	}
 }
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991px) { 
+	.grid-box{
+		padding-left: 0;
+		padding-top: 87px;
+	}
+	.grid-sizer,
+	.grid-item {
+	  width: 33.333%;
+	}
+	.grid-sizerr,
+	.grid-item3x2{
+	  width: 66.666%;
+	}
 	
 }
-
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199px) { 
 	

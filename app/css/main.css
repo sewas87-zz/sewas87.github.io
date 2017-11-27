@@ -1393,3 +1393,22 @@ html.fp-enabled, .fp-enabled body {
 .grid-item img, .grid-item3x2 img {
   display: block;
   width: 100%; }
+
+@media (max-width: 767px) {
+  .grid-sizer,
+  .grid-item {
+    width: 50% !important; }
+  .grid-sizerr,
+  .grid-item3x2 {
+    width: 100% !important; } }
+
+@media (max-width: 991px) {
+  .grid-box {
+    padding-left: 0;
+    padding-top: 87px; }
+  .grid-sizer,
+  .grid-item {
+    width: 33.333%; }
+  .grid-sizerr,
+  .grid-item3x2 {
+    width: 66.666%; } }
