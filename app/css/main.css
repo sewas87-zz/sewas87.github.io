@@ -1203,7 +1203,7 @@ html.fp-enabled, .fp-enabled body {
       padding-bottom: 15px !important; }
       .contact-box .contact-baner .qvestions h2 {
         padding-left: 50px;
-        font-size: 31px;
+        font-size: 28px;
         line-height: 33px;
         margin-bottom: 15px !important; }
         .contact-box .contact-baner .qvestions h2:before {
@@ -1215,20 +1215,20 @@ html.fp-enabled, .fp-enabled body {
         padding-left: 130px;
         margin-bottom: 10px; }
         .contact-box .contact-baner .qvestions .work-email p {
-          font-size: 18px !important; }
+          font-size: 15px !important; }
         .contact-box .contact-baner .qvestions .work-email a {
-          font-size: 18px !important; }
+          font-size: 15px !important; }
       .contact-box .contact-baner .qvestions .tel {
         padding-left: 130px; }
         .contact-box .contact-baner .qvestions .tel p {
-          font-size: 18px !important; }
+          font-size: 15px !important; }
         .contact-box .contact-baner .qvestions .tel span {
-          font-size: 18px !important; }
+          font-size: 15px !important; }
           .contact-box .contact-baner .qvestions .tel span a {
-            font-size: 18px !important; }
+            font-size: 15px !important; }
     .contact-box .contact-baner .help h2 {
       padding-left: 50px;
-      font-size: 31px;
+      font-size: 28px;
       line-height: 33px;
       margin-bottom: 15px !important; }
       .contact-box .contact-baner .help h2:before {
@@ -1249,19 +1249,22 @@ html.fp-enabled, .fp-enabled body {
       .contact-box .contact-baner .help .send-email p {
         margin-right: 0;
         margin-bottom: 5px;
-        font-size: 18px !important; }
+        font-size: 15px !important; }
       .contact-box .contact-baner .help .send-email a {
-        font-size: 18px !important; }
+        font-size: 15px !important; }
   .forma-box form {
     padding-top: 40px; }
     .forma-box form h2 {
-      font-size: 31px;
+      font-size: 28px;
       margin-bottom: 8px; }
+    .forma-box form button[type="submit"] {
+      margin-top: 0;
+      font-size: 20px; }
     .forma-box form .input__field--jiro {
       padding: 10px 10px;
       width: 100%;
       background: #292d33;
-      font-size: 24px;
+      font-size: 15px;
       color: #fff;
       opacity: 0;
       -webkit-transition: opacity 0.3s;
@@ -1271,6 +1274,7 @@ html.fp-enabled, .fp-enabled body {
       position: relative;
       display: block;
       padding: 14px 0;
+      font-size: 15px !important;
       width: 100%; }
     .forma-box form .off {
       display: none; } }

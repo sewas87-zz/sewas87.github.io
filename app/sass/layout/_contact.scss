@@ -565,7 +565,7 @@
 			.qvestions{
 				h2{
 					padding-left: 50px;
-					font-size: 31px;
+					font-size: 28px;
 					line-height: 33px;
 					margin-bottom: 15px !important;
 					&:before{
@@ -576,22 +576,22 @@
 				.work-email{
 					padding-left: 130px;
 					p{
-						font-size: 18px !important;
+						font-size: 15px !important;
 					}
 					a{
-						font-size: 18px !important;
+						font-size: 15px !important;
 					}
 					margin-bottom: 10px;
 				}
 				.tel{
 					padding-left: 130px;
 					p{
-						font-size: 18px !important;
+						font-size: 15px !important;
 					}
 					span{
-						font-size: 18px !important;
+						font-size: 15px !important;
 						a{
-							font-size: 18px !important;
+							font-size: 15px !important;
 						}
 					}
 				}
@@ -600,7 +600,7 @@
 			.help{
 				h2{
 					padding-left: 50px;
-					font-size: 31px;
+					font-size: 28px;
 					line-height: 33px;
 					margin-bottom: 15px !important;
 					&:before{
@@ -614,10 +614,10 @@
 					p{
 						margin-right: 0;
 						margin-bottom: 5px;
-						font-size: 18px !important;
+						font-size: 15px !important;
 					}
 					a{
-						font-size: 18px !important;
+						font-size: 15px !important;
 					}
 				}
 			}
@@ -628,14 +628,18 @@
 		form{
 			padding-top: 40px;
 			h2{
-				font-size: 31px;
+				font-size: 28px;
 				margin-bottom: 8px;
+			}
+			button[type="submit"] {
+				margin-top: 0;
+				font-size: 20px;
 			}
 			.input__field--jiro {
 				padding: 10px 10px;
 				width: 100%;
 				background: #292d33;
-				font-size: 24px;
+				font-size: 15px;
 				color: #fff;
 				opacity: 0;
 				-webkit-transition: opacity 0.3s;
@@ -645,6 +649,7 @@
 				position: relative;
 				display: block;
 				padding: 14px 0;
+				font-size: 15px !important;
 				width: 100%;
 			}
 			.off{
