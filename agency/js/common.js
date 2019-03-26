@@ -162,10 +162,85 @@ function initMap() {
             zoom: zoom,
             disableDefaultUI: true,
             scrollwheel: false
-        })
-    $.getJSON("../json/map-style/map-style.json", function (data) {
-        map.setOptions({styles: data});
-    });
+        });
+    var styles = [
+        {
+            "elementType": "geometry.stroke",
+            "stylers": [
+                {
+                    "color": "#80ffff"
+                }
+            ]
+        },
+        {
+            "featureType": "poi.park",
+            "elementType": "geometry.fill",
+            "stylers": [
+                {
+                    "color": "#0080ff"
+                },
+                {
+                    "lightness": 35
+                }
+            ]
+        },
+        {
+            "featureType": "road.arterial",
+            "elementType": "geometry.fill",
+            "stylers": [
+                {
+                    "color": "#503392"
+                }
+            ]
+        },
+        {
+            "featureType": "road.arterial",
+            "elementType": "labels.text.fill",
+            "stylers": [
+                {
+                    "color": "#0000ff"
+                }
+            ]
+        },
+        {
+            "featureType": "road.arterial",
+            "elementType": "labels.text.stroke",
+            "stylers": [
+                {
+                    "color": "#80ffff"
+                }
+            ]
+        },
+        {
+            "featureType": "road.highway",
+            "elementType": "geometry.fill",
+            "stylers": [
+                {
+                    "color": "#009dda"
+                }
+            ]
+        },
+        {
+            "featureType": "road.local",
+            "elementType": "labels.text.fill",
+            "stylers": [
+                {
+                    "color": "#0000ff"
+                }
+            ]
+        },
+        {
+            "featureType": "road.local",
+            "elementType": "labels.text.stroke",
+            "stylers": [
+                {
+                    "color": "#80ffff"
+                }
+            ]
+        }
+    ]
+    map.setOptions({styles: styles});
+
 }
 
 // position in window
