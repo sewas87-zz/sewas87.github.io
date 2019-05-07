@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
@@ -25,38 +25,6 @@ a:focus {
 
 a:active, a:hover {
   outline: 0; }
-
-h1 {
-  font-size: 2em;
-  margin: 0; }
-
-abbr[title] {
-  border-bottom: 1px dotted; }
-
-b, strong {
-  font-weight: 700; }
-
-dfn {
-  font-style: italic; }
-
-hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  height: 0; }
-
-mark {
-  background: #ff0;
-  color: #000; }
-
-code, kbd, pre, samp {
-  font-family: monospace,serif;
-  font-size: 1em; }
-
-pre {
-  white-space: pre-wrap; }
-
-q {
-  quotes: "\201C" "\201D" "\2018" "\2019"; }
 
 small {
   font-size: 80%; }
@@ -697,8 +665,7 @@ p.dummy-text:nth-child(3) {
 .no-csstransforms3d .close-content, .no-csstransitions .close-content, .no-pointerevents .close-content {
   opacity: 1;
   visibility: visible;
-  display: none;
-  height: auto; }
+  display: none; }
 
 .no-csstransforms3d .content, .no-csstransitions .content, .no-pointerevents .content {
   opacity: 1;
